@@ -1,0 +1,32 @@
+/* style sheets do not require setup. You can just start typing CSS */
+
+body{text-align:center}
+body{background-color: antiquewhite}
+
+.Green{
+  color: darkgreen;
+}
+
+#orange{
+  background-color: orange
+}
+h1{
+  color : red;
+  font-family: "gill sans";
+}
+
+
+h3{
+  color: dimgrey;
+  font-family: "gill sans";
+  text-align: center;
+}
+
+h2{
+  color: dimgrey;
+  font-family: "gill sans";
+}
+
+span{
+  color: orange;
+}

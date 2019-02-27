@@ -1,0 +1,21 @@
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: darkgrey;
+}
+
+li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+
+li a:hover{
+background-color: bisque;
+color: red;
+}
+nav ul li{
+  display: inline;
+}
