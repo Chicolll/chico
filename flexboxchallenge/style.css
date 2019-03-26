@@ -1,0 +1,32 @@
+.card{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 50px;
+  background-color: grey;
+  border-radius: 20px;
+  width: 20%;
+}
+.card--big{
+  display: flex;
+}
+
+.card li{
+  display: flex;
+  list-style: none;
+  padding:5px;
+  background-color: white;
+  text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+span{
+  background-color: white;
+}
