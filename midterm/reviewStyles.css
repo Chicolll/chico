@@ -1,0 +1,91 @@
+.topImage{
+  width: 100%;
+}
+.containerTop{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.title{
+  position: absolute;
+  bottom: 30%;
+  left: 6%;
+  font-family: "copperplate";
+}
+h1{
+  font-size: 40pt;
+}
+.review{
+  top: 70%;
+  position: absolute;
+  width: 70%;
+  padding-left: 20%;
+}
+.textReview{
+  display: flex;
+  text-align: center;
+  margin: 3%;
+  font-family: "avenir";
+  font-size: 15pt;
+}
+.textReview span{
+  font-size: 40pt;
+}
+.background{
+    background-color: #f5f5f5;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.home{
+  position: absolute;
+  color:white;
+  top:3%;
+  padding-left: 2%;
+}
+.home2{
+  position: absolute;
+  color: black;
+  top:3%;
+  padding-left: 2%;
+}
+.reviews{
+  position: absolute;
+  color: white;
+  top: 8%;
+  padding-left: 2%;
+}
+h2{
+  font-size: 15pt;
+  font-family: copperplate;
+}
+h2 span{
+  font-size: 15pt;
+}
+
+.stars{
+  position: absolute;
+  margin-left: 78%;
+  margin-top: 17%;
+}
+.stars img{
+  width: 73%;
+}
+.score{
+  position: absolute;
+  right:10%;
+  margin-top: 12%;
+  font-family: "copperplate";
+}
+.watchButton{
+  position: absolute;
+  right: 12%;
+  margin-top: 25%;
+}
+h5{
+  border: 2px solid #171717;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "copperplate";
+  padding-left: 5px;
+  padding-right: 5px;
+}
