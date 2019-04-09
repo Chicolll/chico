@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 .topBar{
   background-color: #171717;
   color:#e3e3e3;
@@ -27,8 +31,6 @@
   font-size: 20pt;
   /* text-decoration: underline; */
 }
-
-
 
 
 
@@ -88,14 +90,7 @@ footer{
   color: lightgrey;
   font-size: 10pt;
 }
-.imageGrid{
-  display: flex;
-  padding-left: 25%;
-  padding-top:2%;
-}
-.column img{
-  width: 65%;
-}
+
 h2{
   padding-left: 20%;
   font-family: "copperplate";
@@ -126,30 +121,117 @@ a.review_link:active{
   text-align:center;
   font-size: 15pt;
 }
-/* .topHighlight #image{
-  padding-left: 10%;
-  padding-top: 1.5%;
+@media only screen and (min-width:1200px){
+  .imageGrid{
+    justify-content: center;
+  }
+  .column{
+    display: flex;
+    justify-content: center;
+  }
+  .column img{
+    margin-top: 8%;
+    padding: 5%;
+    width: 450px;
+  }
 }
-.topHighlight{
-  display: flex;
-  flex-wrap: nowrap;
-} */
+@media only screen and (min-width:601px) and (max-width: 1199px){
 
-/* .topHighlight span{
-  font-size: 40px;
-  font-weight: 600;
-  font-style: italic;
+  .topBar{
+    background-color: #171717;
+    color:#e3e3e3;
+    display: flex;
+    justify-content: center;
+    padding: 0.2%;
+  }
+  .topBar span{
+    font-weight: lighter;
+    font-family: "copperplate";
+    font-size: 25pt;
+  }
+  .navBar{
+    display: flex;
+    justify-content:center;
+    list-style-type:none;
+  }
+  .navBar li{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5%;
+  }
+  .navBar li a{
+    color: #171717;
+    font-family: "copperplate";
+    font-weight: lighter;
+    font-size: 20pt;
+    /* text-decoration: underline; */
+  }
+
+  .imageGrid{
+    display: flex;
+    padding-left: 15%;
+    padding-top:2%;
+  }
+  .column img{
+    width: 85%;
+  }
+  h2{
+    padding-left: 25%;
+    font-family: "copperplate";
+    padding-bottom: 5%;
+  }
+
+
+}
+@media only screen and (max-width:600px) {
+
+  .topBar{
+    background-color: #171717;
+    color:#e3e3e3;
+    display: flex;
+    justify-content: center;
+    padding: 0.2%;
+  }
+  .topBar span{
+    font-weight: lighter;
+    font-family: "copperplate";
+    font-size: 18pt;
+  }
+  .navBar li{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5%;
+  }
+  .navBar li a{
+    color: #171717;
+    font-family: "copperplate";
+    font-weight: lighter;
+    font-size: 12pt;
+    /* text-decoration: underline; */
+  }
+  .imageGrid{
+    display: flex;
+    padding-left: 10%;
+    padding-top:2%;
+  }
+  .column img{
+    width: 85%;
+  }
+  h2{
+    text-align: center;
+    font-family: "copperplate";
+    padding-right: 30%;
+    font-size: 15pt;
+  }
+
+
+
 }
 
-.topHighlight h1{
-  font-family: "charter";
-  font-weight: 700;
-  font-style: italic;
-  text-align: center;
-}
-.topHighlight h5{
-  font-family: "Avenir";
-  font-style: italic;
-  font-size: 15pt;
-  padding-top: 2%;
-} */
+
+
+
+
+
+
+b
