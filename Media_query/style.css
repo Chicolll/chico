@@ -1,0 +1,33 @@
+@media only screen and (min-width:800px) {
+  .container{
+    display: flex;
+  }
+  .col{
+    flex:50%;
+    justify-content: center;
+  }
+  body{
+    background-color:pink;
+  }
+}
+
+@media only screen and (min-width:1500px) {
+  p{
+    font-size: 10pt;
+  }
+  body{
+    background-color: lightgreen;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .col{
+    flex:50%;
+  }
+
+}
+
+p{
+  font-size: 30pt;
+}
