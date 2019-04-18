@@ -1,0 +1,56 @@
+
+h1{
+  padding-top: 5%;
+  font-family: "Helvetica";
+}
+h2{
+  font-family: "Helvetica";
+}
+
+.material-icons{
+  padding: 2%;
+}
+#menu{
+  background-color: darkgrey;
+  width: 80%;
+}
+#size1{
+  font-size: 24px;
+}
+#size2{
+  font-size: 36px;
+}
+#size3{
+  font-size: 48px;
+}
+#size4{
+  font-size: 60px;
+}
+#languageDark{
+  font-size: 60px;
+}
+#languageLight{
+  font-size: 60px;
+  background-color: #171717;
+  color: lightgrey;
+}
+#languageColored{
+  font-size: 60px;
+  background-color: #171717;
+  color: #468DFF;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+}
+#next{
+  padding-top: 20%;
+  font-size: 48px;
+}
+#before{
+  padding-top: 20%;
+  font-size: 48px;
+}
+.space{
+  padding-bottom: 50%;
+}

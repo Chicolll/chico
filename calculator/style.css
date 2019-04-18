@@ -1,0 +1,11 @@
+body{
+  background-color: lightgrey;
+}
+label{
+  font-family: "arial";
+  font-size: 15pt;
+}
+#solution{
+  font-family: "arial";
+  font-size: 20pt;
+}
