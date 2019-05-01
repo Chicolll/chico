@@ -2,7 +2,12 @@
   position: absolute;
   width: 100%;
 }
-
+h1{
+  font-family: 'Poppins';
+  top: -180px;
+  position: relative;
+  text-align: center;
+}
 svg{
   position: relative;
 }
