@@ -5,8 +5,6 @@ fish.style.width = "20%";
 fish.style.position = "absolute";
 
 function changePosition(){
-  var currX = parseInt(fish.style.paddingLeft);
-  var currY = parseInt(fish.style.paddingTop);
   var cursorX = event.clientX;
   var cursorY = event.clientY;
   fish.style.paddingLeft = (cursorX-120)+'px';
