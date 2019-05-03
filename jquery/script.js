@@ -9,10 +9,10 @@ $('#btn2').click(function(){
 })
 
 $('#btn3').click(function(){
-  $('img').slideUp();
+  $('h1').slideUp();
 })
 $('#btn4').click(function(){
-  $('img').slideDown();
+  $('h1').slideDown();
 })
 $('#para1').click(function(){
   $(this).hide();
