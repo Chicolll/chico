@@ -22,18 +22,19 @@
 
 
 
-
-
+.topContainer{
+  height: 1000px;
+  width: 100%;
+  display: inline-block;
+  clear:both;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
 
 p{
   position: relative;
 }
-h4{
-  font-family: 'Poppins';
-  background-color: lightgrey;
-  width: 100%;
-  padding: 0.5%;
-}
+
 h5{
   font-family: 'Poppins';
   font-size: 20pt;
@@ -42,10 +43,10 @@ h5{
   text-align: center;
 }
 .container{
-  background-color: white;
+  background-color: #f3f3f3;
   position: absolute;
   left: 6%;
-  top: 10%;
+  top: 6%;
 }
 li{
   list-style: none;
@@ -57,19 +58,24 @@ li{
 svg{
   display: block;
 }
+
 #transition{
   font-size: 45pt;
   color:#919191;
-  /* font-family: 'PT Sans Narrow', sans-serif; */
-  font-family: "Tahoma";
+  font-family: 'PT Sans', sans-serif;
+  /* font-family: "Tahoma"; */
   -webkit-animation: fadein2 0.7s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein2 0.7s; /* Firefox < 16 */
         -ms-animation: fadein2 0.7s; /* Internet Explorer */
          -o-animation: fadein2 0.7s; /* Opera < 12.1 */
             animation: fadein2 0.7s;
 }
+#transition:hover{
+  color: #212121;
+}
 
 #down{
+  color:#212121;
   position: absolute;
   bottom: -150px;
   right: 50px;
@@ -77,10 +83,11 @@ svg{
 }
 
 text {
-  /* font-family: "avenir"; */
-  font-size: 80pt;
+  font-family: "avenir";
+  font-size: 100pt;
+  font-weight: lighter;
   text-decoration: underline;
-  /* font-family: 'PT Sans Narrow', sans-serif; */
+  /* font-family: 'PsT Sans Narrow', sans-serif; */
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
 
