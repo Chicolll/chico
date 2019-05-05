@@ -16,18 +16,78 @@
 		#top { top: 0; }
 		#bottom { bottom: 0; }
 
+#section1{
+	font-family: "pt sans";
+	padding: 3%;
+	text-align: center;
+}
 
 
+#date {
+	line-height: 130%;
+	text-align: right;
+	text-decoration: underline;
+	font-family: 'Cabin', sans-serif;
+	font-size: 25pt;
+	font-weight: 300;
+	position: fixed;
+
+
+
+	position:fixed;
+	bottom:45%;
+	right:10%;
+	width: 20px;
+}
+
+
+
+
+
+
+
+.imgageDesciption{
+	line-height: 90%;
+	text-align: right;
+	text-decoration: underline;
+	font-family: 'Cabin', sans-serif;
+	font-size: 20pt;
+	font-weight: 400;
+	position: fixed;
+	right: 5%;
+	bottom: 45%;
+}
+.portrait{
+	margin-left: 35%;
+	width: 30%;
+	height: auto;
+	margin-bottom: 4%;
+}
+.landscape{
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 4%;
+}
 #liu{
   /* border: 3px solid black;
   border-radius: 10px; */
-  font-size: 100pt;
+  /* font-family: "Microsoft Yahei"; */
+  font-family: "PingFang HK";
+  font-size: 90pt;
+  font-weight: 400;
   position: absolute;
-  right:3%;
-  top:4%;
-  color:#212121;
+  right:-12%;
+  top:-3%;
+  color:lightgrey;
 }
-
+#portfolio{
+  font-family: "PingFang HK";
+  font-size: 30pt;
+  font-weight: 400;
+  position: absolute;
+  right:-8%;
+  top:20%;
+}
 
 
 .topContainer{
