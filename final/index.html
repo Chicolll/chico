@@ -1,17 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="shortcut icon" href="favicon.png" />
+
     <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <!-- <script
-  src="https://code.jquery.com/jquery-3.4.1.slim.js"
-  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
-  crossorigin="anonymous"></script> -->
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
@@ -25,36 +22,17 @@
     <title>Chico Liu</title>
   </head>
   <body>
-
-    <div id="left"></div>
-    <div id="right"></div>
-    <div id="top"></div>
-    <!-- <div id="bottom"></div> -->
-
-    <!-- <h4>home</h4> -->
-    <!-- <img id="background"src="2.jpg" alt="sorry"> -->
-    <!-- <p>Photography</p> -->
+    <a name="top"></a>
     <div class="topContainer">
-      <!-- <div class="workContainer">
-            <div class="main">
-                <div class='post'>
-                  <p class="description" style="display: none;"></p>
-                </div>
-                <div id='date'></div>
-            </div>
-        </div> -->
-
-
-      <div class="container" >
         <h1 id="liu">启哲</h1>
-        <!-- <h3 id="portfolio">portfolio</h3> -->
+      <div class="container" >
         <svg width="600" height="200" >
           <text x="0" y="100" fill="black" stroke="black" stroke-width="1">chico liu</text>
         </svg>
-        <p id="transition">Photography</p>
-        <p id="transition">3D Model</p>
-        <p id="transition">Animation</p>
-        <p id="transition">About</p>
+        <a class="mainLinks"href="photography.html"><p id="transition">photography</p></a>
+        <a class="mainLinks"href="photography.html"><p id="transition">3d model</p></a>
+        <a class="mainLinks"href="photography.html"><p id="transition">animation</p></a>
+        <a class="mainLinks"href="photography.html"><p id="transition">about</p></a>
       </div>
     </div>
 
@@ -62,20 +40,8 @@
     <i class="material-icons" id="down">
       keyboard_arrow_down
     </i>
-    <h1 id="section1" >Photography</h1>
-    <!-- <div class="worksContainer">
-      <div class="photography">
-        <img class="portrait" src="photography/1.jpg" alt="no photo">
-        <div class="imgageDesciption">
-          <p>2019</p>
-          <p>vinales</p>
-          <p>cuba</p>
-        </div>
-        <img class="landscape" src="photography/2.jpg" alt="no photo">
-
-      </div>
-
-    </div> -->
+    <h1 id="selected">selected</h1>
+    <a class="mainLinks" href="photography.html"><h1 id="section1" >photography</h1></a>
 
     <div class="workContainer">
           <div class="main">
@@ -87,14 +53,62 @@
               </div>
               <div class='post'>
                 <img class="landscape" src="photography/2.jpg" alt="no photo">
-                <p class="description" style="display: none;">2018 </p>
-                <p class="description" style="display: none;">vinales </p>
-                <p class="description" style="display: none;">cuba </p>
+                <p class="description" style="display: none;">2019 havana cuba</p>
               </div>
+              <div class='post'>
+                <img class="landscape" src="photography/6.jpg" alt="no photo">
+                <p class="description" style="display: none;">2018 new_york usa</p>
+              </div>
+              <div class='post'>
+                <img class="landscape" src="photography/train.jpg" alt="no photo">
+                <p class="description" style="display: none;">2018 bear mountain usa</p>
+              </div>
+              <div class='post'>
+                <img class="landscape" src="photography/milkyway.jpg" alt="no photo">
+                <p class="description" style="display: none;">2018 big_cypress usa</p>
+              </div>
+
+
+
+
+              <a class="mainLinks" href="3d.html"><h1 id="section2">3d model</h1></a>
+              <div class='post'>
+                <img class="landscape" src="3d/fridge3.jpg" alt="no photo">
+                <p class="description" style="display: none;"> fridge model texture</p>
+              </div>
+              <div class="post">
+                <img class="landscape" src="3d/cabinet.jpg" alt="no photo">
+                <p class="description" style="display: none;">cabinet model texture</p>
+              </div>
+              <div class="post">
+                <img class="landscape" src="3d/rayGun.jpg" alt="no photo">
+                <p class="description" style="display: none;"> raygun model texture</p>
+              </div>
+
+
+              <a class="mainLinks" href="animation.html"><h1 id="section3">animation</h1></a>
+              <div class="post">
+
+                <video class = "landscape" controls poster="animation/poster.jpg">
+                  <source src="animation/3D_Demo.mp4" type="video/mp4">
+                </video>
+                <p class="description" style="display: none;"> 2019 animation reel</p>
+              </div>
+
               <div id='date'></div>
-              <div style='height:800px;'></div>
           </div>
       </div>
+
+      <div class="bottom">
+        <ul>
+          <li><a id="bottomName"href="index.html">chico liu</a></li>
+          <li><a href="photography.html">photography</a> </li>
+          <li><a href="3d.html">3d model</a> </li>
+          <li><a href="animation.html">animation</a> </li>
+          <li><a href="about.html">about</a> </li>
+        </ul>
+      </div>
+      <footer> © 2019 by Chico Liu</footer>
 
 
 
