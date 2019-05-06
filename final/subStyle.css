@@ -5,6 +5,20 @@ h1{
   padding-left: 3%;
   padding-top: 2%;
 }
+#transition{
+  -webkit-animation: fadein 0.7s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 0.7s; /* Firefox < 16 */
+        -ms-animation: fadein 0.7s; /* Internet Explorer */
+         -o-animation: fadein 0.7s; /* Opera < 12.1 */
+            animation: fadein 0.7s;
+}
+#transition2{
+  -webkit-animation: fadein2 0.7s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein2 0.7s; /* Firefox < 16 */
+        -ms-animation: fadein2 0.7s; /* Internet Explorer */
+         -o-animation: fadein2 0.7s; /* Opera < 12.1 */
+            animation: fadein2 0.7s;
+}
 #chico{
   font-family: 'avenir';
   text-decoration: underline;
@@ -109,4 +123,66 @@ footer{
     flex: 100%;
     max-width: 100%;
   }
+}
+
+@keyframes fadein {
+    from { opacity: 0; padding-left:5%; }
+    to   { opacity: 1; padding-left:3%;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+
+
+
+
+@keyframes fadein2 {
+    from { opacity: 0; padding-left:3%; }
+    to   { opacity: 1; padding-left:0%;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
 }
