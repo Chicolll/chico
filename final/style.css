@@ -39,14 +39,14 @@ body {
 	line-height: 140%;
 	text-decoration: underline;
 	font-family: 'Cabin', sans-serif;
-	font-size: 25pt;
+	font-size: 20pt;
 	font-weight: 300;
 	position: fixed;
 
 
 	position:fixed;
 	bottom:43%;
-	right:13%;
+	right:12%;
 	width: 2px;
 }
 
@@ -95,7 +95,6 @@ iframe{
   font-size: 45pt;
   color:#919191;
   font-family: 'PT Sans', sans-serif;
-  /* font-family: "Tahoma"; */
   -webkit-animation: fadein2 0.7s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein2 0.7s; /* Firefox < 16 */
         -ms-animation: fadein2 0.7s; /* Internet Explorer */

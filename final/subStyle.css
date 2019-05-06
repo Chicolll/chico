@@ -1,0 +1,112 @@
+body{
+  background-color: #f3f3f3 !important;
+}
+h1{
+  padding-left: 3%;
+  padding-top: 2%;
+}
+#chico{
+  font-family: 'avenir';
+  text-decoration: underline;
+  color: #121212;
+}
+#chico:hover{
+  color: #121212;
+}
+#backLink:hover{
+  color: #121212;
+}
+#back{
+  color: #121212;
+  font-size: 60pt;
+  padding-left: 6%;
+  padding-top: 1%;
+}
+
+#title{
+  position: absolute;
+  font-size: 90pt;
+  right: 2%;
+  top: -5%;
+  color: lightgrey;
+}
+
+.imageGrid{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 32%;
+  padding: 0 1vw;
+}
+img{
+  width: 100%;
+}
+.column img {
+  margin-top: 2vw;
+  vertical-align: middle;
+}
+
+.bottom{
+	padding-top: 8vh;
+	padding-bottom: 2vh;
+	background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+	color: #121212;
+	text-decoration: none;
+	font-size: 12pt;
+}
+li {
+  display: inline;
+	padding-right: 10%;
+}
+#bottomName:hover{
+	color: inherit;
+}
+#bottomName{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30pt;
+	text-decoration: underline;
+	padding-right: 2%;
+	padding-left: 4%;
+}
+footer{
+	color:lightgrey;
+	text-align: right;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	padding-right: 2%;
+	padding-bottom: 1%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
