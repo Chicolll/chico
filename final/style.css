@@ -1,6 +1,6 @@
 #selected{
 	font-family: "Avenir";
-	font-size: 110pt;
+	font-size: 90pt;
 	padding-left: 3%;
 	padding-top: 1%;
 }
@@ -68,7 +68,7 @@ iframe{
 }
 #qizhe{
   font-family: "PingFang HK";
-  font-size: 90pt;
+  font-size: 80pt;
   font-weight: 400;
   position: absolute;
   right:4%;
@@ -94,7 +94,7 @@ iframe{
 
 
 #transition{
-  font-size: 45pt;
+  font-size: 40pt;
   color:#919191;
   font-family: 'PT Sans', sans-serif;
   -webkit-animation: fadein2 0.7s; /* Safari, Chrome and Opera > 12.1 */
@@ -112,13 +112,13 @@ iframe{
   position: absolute;
   bottom: -150px;
   right: 50px;
-  font-size: 500px;
+  font-size: 450px;
 }
 
 text {
   font-family: "avenir";
 	/* font-family: 'PT Sans', sans-serif; */
-  font-size: 120pt;
+  font-size: 110pt;
   font-weight: lighter;
   text-decoration: underline;
   stroke-dasharray: 100%;
