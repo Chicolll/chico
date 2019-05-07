@@ -1,6 +1,8 @@
 #selected{
-	font-size: 130pt;
-	padding-left: 2%;
+	font-family: "Avenir";
+	font-size: 110pt;
+	padding-left: 3%;
+	padding-top: 1%;
 }
 
 #section1{
@@ -64,13 +66,13 @@ body {
 iframe{
 	height: 500px !important;
 }
-#liu{
+#qizhe{
   font-family: "PingFang HK";
   font-size: 90pt;
   font-weight: 400;
   position: absolute;
   right:4%;
-  top:2%;
+  top:4%;
   color:lightgrey;
 }
 
@@ -115,17 +117,18 @@ iframe{
 
 text {
   font-family: "avenir";
-  font-size: 100pt;
+	/* font-family: 'PT Sans', sans-serif; */
+  font-size: 120pt;
   font-weight: lighter;
   text-decoration: underline;
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
 
-  -webkit-animation: fadein 5s, draw 5s forwards; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein 5s, draw 5s forwards; /* Firefox < 16 */
-        -ms-animation: fadein 5s, draw 5s forwards; /* Internet Explorer */
-         -o-animation: fadein 5s, draw 5s forwards; /* Opera < 12.1 */
-            animation: fadein 5s, draw 5s forwards;
+  -webkit-animation: fadein 6s, draw 3s forwards; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 6s, draw 3s forwards; /* Firefox < 16 */
+        -ms-animation: fadein 6s, draw 3s forwards; /* Internet Explorer */
+         -o-animation: fadein 6s, draw 3s forwards; /* Opera < 12.1 */
+            animation: fadein 6s, draw 3s forwards;
 
 }
 .bottom{
@@ -144,6 +147,7 @@ li a{
 	font-size: 12pt;
 }
 li {
+	font-family: "PingFang HK";
   display: inline;
 	padding-right: 10%;
 }
@@ -158,6 +162,8 @@ li {
 	padding-left: 4%;
 }
 footer{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
 	color:lightgrey;
 	text-align: right;
 	width: 100%;
