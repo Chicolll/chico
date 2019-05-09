@@ -116,9 +116,8 @@ iframe{
 }
 
 text {
-  font-family: "avenir";
-	/* font-family: 'PT Sans', sans-serif; */
-  font-size: 110pt;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 70pt;
   font-weight: lighter;
   text-decoration: underline;
   stroke-dasharray: 100%;
